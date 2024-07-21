@@ -1,6 +1,6 @@
 // Establece la fecha del cumpleaños
 const year = new Date().getFullYear();
-const birthday = new Date(year, 6, 20, 21, 9, 0).getTime(); // 20 de julio a las 15:30:45
+const birthday = new Date(year, 6, 20, 20, 30, 0).getTime(); // 20 de julio a las 15:30:45
 const birthdayNextYear = new Date(year + 1, 6, 20, 15, 30, 45).getTime();
 const month = new Date().getMonth();
 
